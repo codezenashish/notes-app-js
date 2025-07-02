@@ -37,7 +37,7 @@
     <!-- main -->
     <main id="notesCardsIn"
         class="pt-20 container mx-auto max-w-[1200px] py-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 px-2">
-        <!-- Example note card -->
+        <!-- Example note card
         <div class="bg-white dark:bg-slate-800 rounded-lg shadow p-4 flex flex-col transition-all duration-300 hover:-translate-y-1">
             <h3 class="font-semibold text-lg mb-2 dark:text-white">Note Title</h3>
             <p class="text-slate-700 dark:text-slate-200 flex-1">This is a sample note content. You can add your notes
@@ -46,7 +46,7 @@
                 <button class="text-blue-600 hover:underline text-sm">Edit</button>
                 <button class="text-red-500 hover:underline text-sm">Delete</button>
             </div>
-        </div> 
+        </div>  -->
 
 
     </main>
@@ -93,7 +93,7 @@
                         class="dark:text-white w-8 h-8 dark:bg-slate-500 bg-slate-200 text-black flex justify-center items-center rounded-sm cursor-pointer hover:bg-red-500 transition-colors duration-200">×</span>
                 </div>
 
-                <form>
+                <form id="submitForm">
                     <div class="flex flex-col mt-4 gap-2">
                         <label class="dark:text-white text-base text-black " for="title-input">Enter Your Note
                             Title</label>
@@ -109,7 +109,7 @@
                     </div>
 
                     <div class="flex flex-row-reverse gap-2 mt-6">
-                        <button type="button"
+                        <button id="saveNote" type="button"
                             class="text-white bg-blue-600 hover:bg-blue-700 cursor-pointer rounded-lg text-sm px-5 py-2.5 font-medium transition-colors duration-200">Add
                             note</button>
                         <button type="button" id="cancelBtn"
